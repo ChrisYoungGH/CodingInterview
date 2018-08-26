@@ -14,4 +14,14 @@ https://github.com/zhedahht/CodingInterviewChinese2/blob/master/LICENSE.txt)
 
 #pragma once
 
+#include <vector>
+
+using namespace std;
+
+
 int Partition(int data[], int length, int start, int end);
+
+vector<vector<int> > Array2Matrix(const int *arr, int rows, int cols);
+vector<int> Array2Vector(const int *arr, int n);
+void PrintVector(vector<int> &vec);
+void PrintMatrix(vector<vector<int> > &matrix);
